@@ -1,0 +1,227 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style */
+body{
+    background-color: rgb(209,239,239);
+    font-size: 16px;
+    line-height: 1.5;
+    color: whitesmoke;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(48,63,159);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5rem;
+}
+.h1{
+    font-size: 1.8rem;
+    margin-left: .6 rem;
+}
+.header img{
+    height: 2rem;
+    margin-right: 1rem;
+}
+.header input{
+    all: unset;
+    margin-left: 5rem;
+}
+.sidebar{
+    background-color: rgb(255,255,255);
+    width: 18%;
+    font-size: 1.4rem;
+    color: rgb(181,109,0);
+    padding: 1.5rem;
+}
+.sidebar span{
+    padding: .8rem 0;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+.main-section{
+    display: flex;
+}
+.main-section main{
+    flex:   0 1 73% ;
+}
+
+.container{
+    padding: 2rem;
+    width: 100%;
+}
+.heading{
+    font-size: 1.5rem;
+}
+.col{
+    padding: 2rem 3rem;
+    background-color: aqua;
+    font-size: 2rem;
+}
+.article h2{
+    font-size: 1.5rem;
+    padding-top: 1.1rem;
+}
+.article p{
+    font-size: 1.3rem;
+}
+
+.search-box input{
+    all: unset;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: 5rem;
+}
+
+
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card, .people-card{
+    flex : 0 1 28%;
+    margin: 1rem  0;
+    padding: 1rem;
+    color: #303F9F;
+    border-radius: 1.6rem;
+    background-color: #fff;
+}
+.people-card{
+    width: 30%;
+    text-align: center;
+}
+.people{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+}
+.people-description{
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.people-image{
+    border-radius: 50%;
+    border: .3rem solid #D1EFEF;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.people-name{
+    font-size: 1.5rem;
+}
+.book-image{
+    width: 4rem;
+}
+.book-container .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.book-title{
+    font-size: 1.1rem;
+}
+.author-name{
+    margin: .5rem 0;
+}
+
+.buy-button{
+    padding: .2rem 1.6rem;
+    background-color: #303F9F;
+    border-radius: .4rem;
+    color: #fff;
+}
+
+.page-start-heading{
+    font-size: 2rem;
+}
+.learn{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
